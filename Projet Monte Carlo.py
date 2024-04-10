@@ -15,6 +15,8 @@ print("w =", w)
 u = np.random.uniform(-np.pi/2, np.pi/2)
 print("u =", u)
 
+#3
+
 def S(alpha, beta): 
     tan_term = np.tan(np.pi * alpha / 2)**2
     result = (1 + beta**2 * tan_term)**(1 / (2 * alpha))
